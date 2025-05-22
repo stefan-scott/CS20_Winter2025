@@ -1,0 +1,83 @@
+<html>
+<html lang="en">
+<head>
+    <title>Extra Content</title>
+    <!-- CSS HERE (Must be for our assignment)-->
+    <style>
+        /* CSS Comments like this... */
+        /* 1. Select by TAG */
+        h2 {
+         /* property   :     value        ;    */
+            color      :     limegreen  ;
+            font-size: 30pt;
+        }
+    </style>
+</head>
+<body> 
+    <h3>Lists, Tables, Media</h3>
+    <!-- make a link back to the main pg (index.html)-->
+    <a href = "index.html"><p>Back to Main Page</p></a>
+    <!-- Lists:   ORDERED LISTS,  UNORDERED LISTS -->
+    <!-- ordered:   1,2,3,4    a,b,c,d   i, ii, iii, iv-->
+    <ol type="i">
+        <li>Computer Science</li>
+        <li>Robotics</li>
+        <li>Animation</li>
+    </ol>
+
+    <h2>TOP SUMMERTIME ACTIVITIES</h2>
+    <ul>
+        <li>Sailing / Wingfoil</li>
+        <li>Camping</li>
+        <li>Playing Soccer
+            <ol>
+                <li>Passing Drills</li>
+                <li>Footwork/Agility</li>
+                <li>Games</li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- some paragraphs to style later -->
+    <p>Some sample text to style</p> <!--block elements-->
+    <p>Some sample text to style</p>
+    <p>Some sample text to style</p>
+    <p>Some sample text to style</p>
+    <p>Some sample text to style</p>
+
+    <!-- Tables. Data into Rows/Columns -->
+    <table border = "1px solid">
+        <tr>
+            <th>Class Name</th>
+            <th>Enrollment</th>
+            <th>Sections</th>    
+        </tr>
+        <tr>
+            <td>Computer Science 20</td>
+            <td>140</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Animation 10</td>
+            <td>52</td>
+            <td>2</td>
+        </tr>
+    </table>
+        <!-- Audio Files.  No automatic playing of audio-->
+        <audio controls>
+            <source src="http://www.cs20.ca/_static/battleThemeA.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video Files. -->
+        <video height=300 width=400 controls>
+            <source src="http://www.cs20.ca/_static/run-cycle.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <!-- iFrame Embed,  video embed from something like youtube -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/crL9-5DkbYo?si=J8M4VDOirxhYeoqO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+
+</body>
+</html>

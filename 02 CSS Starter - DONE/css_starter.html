@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>CSS Starter</title>
+    <!-- CSS MUST BE HERE...for this assignment  -->
+    <style>
+        /* CSS Select by TAG */
+        /* good to apply rules to all related
+        tags  */
+        p {
+            /* property   :  value  ;  */
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20pt;
+        }
+        h1 {
+            font-style: italic;
+        }
+
+        /* CSS Select by ID */
+        /* Good when we want to modify
+           one specific element */
+        p#abc123{
+            font-weight: bold;
+            color:darkmagenta;
+        }
+        img#abc123{
+            width: 20%;
+        }
+        /* CSS Select by Class 
+        Good to select some, but not all */
+        .even{
+            background-color: aqua;
+        }
+        .odd{
+            background-color:cornflowerblue;
+        }
+
+        
+        .button{
+            background-color: aquamarine;
+            color: black;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+        /* Psuedo-class Example: Button */
+        .button:hover{
+            background-color:rgb(23, 67, 52);
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1> Test Page for CSS </h1>
+    <p class = "odd"> Here are some paragraphs</p>
+    <!-- ID should be unique (one only)-->
+    <p class = "even" id="abc123"> Here are some paragraphs</p>
+    <p class = "odd"> Here are some paragraphs</p>
+    <p class = "even"> Here are some paragraphs</p>
+    <p class = "odd"> Here are some paragraphs</p>
+
+    <h1 class = "even"> Another Header to work with</h1>
+    <img id="abc123" src="cent_chargers.png">
+    <img id="abc123" src="cent_chargers.png">
+    <img id="abc123" src="cent_chargers.png">
+
+    <h1>Final Header</h1>
+    <a class = "button" href="https://www.pexels.com">
+        Stock Images and Videos
+    </a>
+
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+   <title>Layout Demo</title>
+   <style>
+    .nav{
+       background-color: aquamarine; 
+       height: 100px;
+    }
+    .main{
+        background-color:blanchedalmond;
+        height: 70%;
+    }
+    .leftSide{
+        background-color: blueviolet;
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    .rightSide{
+        background-color:chocolate;
+        width: 70%;
+        height: 100%;
+        float: left;
+
+        /* CENTERING CONTENT in DIV */
+        display: flex;
+        justify-content: center; /*horizontal*/
+        align-items: center; /*vertical*/
+    }
+    img{
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+   </style>
+</head>
+<body>
+    <div class = "nav">
+        <p>Navigation Here</p>
+    </div>
+
+    <div class = "main">
+        <div class = "leftSide">
+
+        </div>
+        <div class = "rightSide">
+            <img src="cent_chargers.png" width="150px">
+        </div>
+    </div>
+</body>
+</html>
